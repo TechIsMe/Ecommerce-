@@ -1,9 +1,10 @@
 import './App.css';
-
+import Layout from './components/Layout/Layout';
+import 'remixicon/fonts/remixicon.css';
 function App() {
   return (
     <div className="App">
-     <h2> hi there</h2>
+     <Layout /> 
     </div>
   );
 }

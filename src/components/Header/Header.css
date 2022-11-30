@@ -1,0 +1,134 @@
+
+.header{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.logo img{
+    width: 1.5rem;
+    width: 1.5rem;
+    /* width: 35px;
+    height: 35px; */
+
+}
+.logo h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-bottom: 0;
+}
+
+.nav-item a {
+    color: var(--primary-color);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+}
+
+.nav-icons span i{
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.cart-icon, .fav-icon{
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    height: 14px;
+    height: 14px;
+    content: '';
+    background-color:var(--primary-color);
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: .8rem;
+    font-weight: 600;
+    z-index: 10;
+}
+.nav-icons span img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.mobile-menu{
+    font-size: 2rem;
+    /* font-size: 1.3rem; */
+    color: var(--primary-color);
+    display: none;
+}
+
+.nav-active{
+    font-weight: 700 !important;
+}
+
+.sticky-header{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 3px 3px 8px -3px rgb(189, 120, 120);
+    background-color: #fff;
+
+}
+
+@media only screen and (max-width:768px) {
+    .navigation{
+        position:fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0 ,0.53);
+        z-index: 9999;
+        display: none;
+    }
+    .menu{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 25px;
+        height: 100%;
+        background: #fff;
+        z-index: 99999;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

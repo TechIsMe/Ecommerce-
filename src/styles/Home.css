@@ -1,0 +1,67 @@
+.hero-section{
+    /* background: var(--hero-bg); */
+    /* background: white; */
+    background: rgb(227, 233, 227);
+
+}
+
+.hero-section h2{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.hero-section p:nth-child(1){
+    font-weight: 500;
+
+}
+
+.hero-section p{
+    color: var(--primary-color);
+    line-height: 28px;
+}
+
+.buy-btn{
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 40px ;
+}
+
+.buy-btn a:hover{
+    color: #fff;
+}
+
+.hero-content{
+    padding-top: 45px;
+}
+
+.timer-count{
+    background: var(--primary-color);
+    /* color: var(--primary-color); */
+
+    height: 430px;
+}
+
+.timer-count img{
+    width: 70% !important;
+    height: 70% !important;
+
+}
+
+.store-btn{
+    background: white;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.store-btn a:hover{
+    color: var(--primary-color);
+}
+
