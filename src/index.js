@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
 import store from './redux/store';
 import { Provider } from 'react-redux';
-import { ToastContainer } from 'react-bootstrap';
+import {ToastContainer} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -15,16 +15,14 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Provider store={store}>
-
     <ToastContainer
+theme="light"
 position="top-right"
-autoClose={3000}
+autoClose={1000}
 closeOnClick
-pauseOnHover
-theme="dark"
-// pauseOnHover={false}
+pauseOnHover={false}
 />
-<ToastContainer />
+
     <App />
     </Provider>
     </BrowserRouter>

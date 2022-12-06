@@ -1,8 +1,15 @@
 import React from 'react'
+import Helmet from '../components/Helmet/Helmet';
 
  const Checkout = () => {
   return (
-    <div>Checkout</div>
+    <Helmet>
+        <section>
+            <h3> hhhhhhhhhhhhhhhhhhh</h3>
+        </section>
+        Checkout
+
+    </Helmet>
   )
 }
-export default Checkout
+export default Checkout;

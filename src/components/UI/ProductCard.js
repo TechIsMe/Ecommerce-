@@ -12,8 +12,9 @@ const ProductCard = ({item}) => {
 
     const dispatch = useDispatch()
 
-    const addToCart = ()=>{
-        dispatch(cartActions.addItem({
+    const addToCart = ()=> {
+        dispatch(
+            cartActions.addItem({
             id: item.id,
             productName: item.productName,
             price: item.price,
@@ -22,7 +23,7 @@ const ProductCard = ({item}) => {
         
         );
         toast.success('product added to the cart')
-        alert('product added to the cart')
+        // alert('product added to the cart')
 
     };
 

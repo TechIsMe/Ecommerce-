@@ -6,6 +6,7 @@ import Logo from "../../assets/images/Logo.png"
 // import user from "../../assets/images/user-icon.png"
 import logogo from '../../assets/images/logogo.png'
 import { Container, Row } from 'react-bootstrap';
+import {useSelector} from 'react-redux'
 
 const nav_links  =[
   {
@@ -24,6 +25,7 @@ const nav_links  =[
 const Header = () => {
 
   const headerRef = useRef(null)
+  const totalQuantity = useSelector(state=> state.cart.totalQuantity)
 
   const stickyHeader = ()=>{
 
@@ -84,7 +86,7 @@ const Header = () => {
                 </span>
                 <span className='cart-icon'>
                 <i class="ri-shopping-cart-line"></i>
-                <span className='badge'></span>
+                <span className='badge'> {totalQuantity}</span>
 
                 </span>
                 <span className='text-center mb-4 text-black'>

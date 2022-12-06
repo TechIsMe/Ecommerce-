@@ -73,6 +73,7 @@ const Home = () => {
               </Col>
           </Row>
         </Container>
+        <Caris/>
       </section>
       {/* <Caris /> */}
       {/* <Services/> */}

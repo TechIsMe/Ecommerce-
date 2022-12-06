@@ -121,7 +121,7 @@ const products = [
 
   {
     id: "5",
-    productName: "HERMES SILK SCARF",
+    productName: "Hermes Silk Scarf ",
     imgUrl: ac1,
     category: "accessories",
     price: 399,
@@ -144,51 +144,7 @@ const products = [
   
   {
     id: "6",
-    productName: "APPLE WATCH BAND DESIGNER",
-    imgUrl: ac2,
-    category: "accessories",
-    price: 399,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-    reviews: [
-      {
-        rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      },
-      {
-        rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      },
-    ],
-    avgRating: 4.8,
-  },
-  {
-    id: "6",
-    productName: "APPLE WATCH BAND DESIGNER",
-    imgUrl: ac2,
-    category: "accessories",
-    price: 399,
-    shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-    reviews: [
-      {
-        rating: 4.8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      },
-      {
-        rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      },
-    ],
-    avgRating: 4.8,
-  },
-  {
-    id: "6",
-    productName: "APPLE WATCH BAND DESIGNER",
+    productName: "APPLE WATCH BAND DESIGNER ",
     imgUrl: ac2,
     category: "accessories",
     price: 399,
@@ -210,6 +166,50 @@ const products = [
   },
   {
     id: "7",
+    productName: "APPLE WATCH BAND DESIGNER",
+    imgUrl: ac2,
+    category: "accessories",
+    price: 399,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+  {
+    id: "8",
+    productName: "APPLE WATCH BAND DESIGNER",
+    imgUrl: ac2,
+    category: "accessories",
+    price: 399,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.8,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.8,
+  },
+  {
+    id: "9",
     productName: "HERMÈS VINTAGE WIDE ENAMEL BANGLE",
     imgUrl: shoe1,
     category: "shoes",
@@ -232,7 +232,7 @@ const products = [
   },
 
   {
-    id: "8",
+    id: "10",
     productName: "CHANEL CALFSKIN CC REVERSIBLE BELT",
     imgUrl: shoe2,
     category: "shoes",
@@ -255,7 +255,7 @@ const products = [
   },
   
   {
-    id: "6",
+    id: "11",
     productName: "APPLE WATCH BAND DESIGNER",
     imgUrl: shoe3,
     category: "shoes",
@@ -277,7 +277,7 @@ const products = [
     avgRating: 4.8,
   },
   {
-    id: "7",
+    id: "12",
     productName: "CHRISTIAN LOUBOUTIN GLITTER HEELS",
     imgUrl: shoe4,
     category: "shoes",
@@ -299,7 +299,7 @@ const products = [
     avgRating: 4.8,
   },
   {
-    id: "7",
+    id: "13",
     productName: "CHANEL CALFSKIN CC REVERSIBLE BELT",
     imgUrl: shoe5,
     category: "shoes",
@@ -321,7 +321,7 @@ const products = [
     avgRating: 4.8,
   },
   {
-    id: "6",
+    id: "14",
     productName: "CHRISTIAN LOUBOUTIN GLITTER HEELS",
     imgUrl: shoe6,
     category: "shoes",
@@ -343,7 +343,7 @@ const products = [
     avgRating: 4.8,
   },
   {
-    id: "7",
+    id: "15",
     productName: "HERMÈS VINTAGE WIDE ENAMEL BANGLE",
     imgUrl: shoe7,
     category: "shoes",
@@ -366,7 +366,7 @@ const products = [
   },
 
   {
-    id: "7",
+    id: "16",
     productName: "CHANEL CALFSKIN CC REVERSIBLE BELT",
     imgUrl: shoe8,
     category: "shoes",
@@ -390,7 +390,7 @@ const products = [
 
 
   {
-    id: "777777777777",
+    id: "17",
     productName: "jewlery",
     imgUrl: jwl3,
     category: "jewlery",
@@ -413,7 +413,7 @@ const products = [
   },
 
   {
-    id: "777777777777",
+    id: "18",
     productName: "jewlery",
     imgUrl: jwl1,
     category: "jewlery",
@@ -436,7 +436,7 @@ const products = [
   },
 
   {
-    id: "777777777777",
+    id: "19",
     productName: "jewlery",
     imgUrl: jwl2,
     category: "jewlery",
@@ -459,7 +459,7 @@ const products = [
   },
 
   {
-    id: "777777777777",
+    id: "20",
     productName: "jewlery",
     imgUrl: jwl5,
     category: "jewlery",
